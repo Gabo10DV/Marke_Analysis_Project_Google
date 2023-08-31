@@ -21,7 +21,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # See https://docs.djangoproject.com/en/4.2/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'django-insecure-_sk*r_#d6hxjsc!ft1&@#&=ty3fjll@fg0cpjzs$z15u1@=%bn'
+SECRET_KEY = 'django-insecure-f=)$%*rp)&z913e&z^atqr&m+x++70=qq3_npmm@afg72x8n(6'
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
@@ -32,6 +32,8 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
+    'django_extensions',
+    'task',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
@@ -75,10 +77,17 @@ WSGI_APPLICATION = 'Google_yelp_Proyect.wsgi.application'
 # https://docs.djangoproject.com/en/4.2/ref/settings/#databases
 
 DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
-    }
+  'default': {
+    'ENGINE': 'django.db.backends.postgresql',
+    'NAME': config('DB_NAME'),
+    'USER': config('DB_USER'),
+    'PASSWORD': config('DB_PASSWORD'),
+    'HOST': 'ep-cold-snowflake-11936244.us-east-2.aws.neon.tech',
+    'PORT': '5432',
+    'OPTIONS': {
+        'sslmode': 'require',
+    },
+  }
 }
 
 
@@ -122,15 +131,3 @@ STATIC_URL = 'static/'
 # https://docs.djangoproject.com/en/4.2/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
-
-
-DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'Database_google_yelp',
-        'USER': 'EmilianoEmanuelSosa',
-        'PASSWORD': '',
-        'HOST': 'ep-cold-snowflake-11936244.us-east-2.aws.neon.tech',
-        'PORT': '5432',
-    }
-}
