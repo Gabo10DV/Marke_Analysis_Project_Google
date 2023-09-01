@@ -348,58 +348,16 @@ Get to know our project, cloning the repository on your computer
 
 <br />
 
-<div style="display:flex; flex-direction:row; flex-wrap:wrap; justify-content:space-evenly; gap: 1.5rem">
+<div align=center>
   
-  <div style="width:150px; display:inline-block">
-    <img style="border-radius: 9999px;" src = 'src/profiles_photos/Emiliano.jpeg' height = 150>  
-    <div align="center" >
-      <a href="https://github.com/EmilianoEmanuelSosa">Emiliano Sosa</a>
-    </div>
-    <div align="center" >
-      Ingeniero de Datos
-    </div>
-  </div>
+  | <div style="width:150px"><img src = 'src/profiles_photos/Emiliano.jpeg' height = 150>  <div align="center" ><a href="https://github.com/EmilianoEmanuelSosa">Emiliano Sosa</a></div><div align="center" >Ingeniero de Datos</div><div align="center" >Ingeniero ML</div><</div> |  <div style="width:150px; display:inline-block"><img src = 'src/profiles_photos/Franco.jpeg' height = 150> <div align="center" ><a href="https://github.com/franco18min">Franco Aguilera</a></div><div align="center" >Ingeniero de Datos</div><div align="center" >Ingeniero ML</div></div> | <div style="width:150px; display:inline-block"><img src = 'src/profiles_photos/GabrielU.jpeg' height = 150>  <div align="center" ><a href="https://github.com/Gabo10DV">Gabriel Urbina</a></div><div align="center" >Ingeniero de Datos</div><div align="center" >Analista de Datos</div></div> |
+  | :---: | :---: | :---: |
 
-  <div style="width:150px; display:inline-block">
-    <img style="border-radius: 9999px;" src = 'src/profiles_photos/Franco.jpeg' height = 150>  
-    <div align="center" >
-      <a href="https://github.com/franco18min">Franco Aguilera</a>
-    </div>
-    <div align="center" >
-      Ingeniero de Datos
-    </div>
-  </div>
 
-  <div style="width:150px; display:inline-block">
-    <img style="border-radius: 9999px;" src = 'src/profiles_photos/GabrielU.jpeg' height = 150>  
-    <div align="center" >
-      <a href="https://github.com/Gabo10DV">Gabriel Urbina</a>
-    </div>
-    <div align="center" >
-      Ingeniero de Datos
-    </div>
-  </div>
-
-  <div style="width:150px">
-    <img style="border-radius: 9999px;" src = 'src/profiles_photos/Matias.jpeg' height = 150>  
-    <div align="center" >
-      <a href="https://github.com/https://github.com/PrismaPsy">Matías Ponce</a>
-    </div>
-    <div align="center" >
-      Ingeniero de Datos
-    </div>
-  </div>
-
-  <div style="width:150px">
-    <img style="border-radius: 9999px;" src = 'src/profiles_photos/Ricardo.jpeg' height = 150>  
-    <div align="center" >
-      <a href="https://github.com/Rickhersd">Ricardo Sánchez</a>
-    </div>
-    <div align="center" >
-      Ingeniero de Datos
-    </div>
-  </div>
 </div>
+
+  | <div style="width:150px"><img src = 'src/profiles_photos/Matias.jpeg' height = 150> <div align="center" ><a href="https://github.com/https://github.com/PrismaPsy">Matías Ponce</a></div><div align="center" >Ingeniero de Datos</div><div align="center" >Analista de Datos</div></div>  | <div style="width:150px"><img src = 'src/profiles_photos/Ricardo.jpeg' height = 150><div align="center" ><a href="https://github.com/Rickhersd">Ricardo Sánchez</a></div><div align="center" >Analista Funcional</div></div> |
+  | :---: | :---: |
 
 <br />
 
