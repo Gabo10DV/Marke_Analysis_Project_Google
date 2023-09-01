@@ -11,12 +11,9 @@
 <details>
   <summary>Tabla de Contenidos</summary>
   <ol>
-    <li><a href="#indice">Introducción</a></li>
-    <li><a href="#introducción">Alcance</a></li>
-    <li><a href="#objetivo">Paquete Tecnológico-Analítico</a></li>
-    <li><a href="#servicio-api-rest">Servicio API Rest</a></li>
-    <li><a href="#machine-learning">Machine Learning</a></li>
-    <li><a href="#analisis-del-mercado">Analisis del mercado</a></li>
+    <li><a href="#introducción">Introducción</a></li>
+    <li><a href="#paquete-tecnológico-analítico">Paquete Tecnológico-Analítico</a></li>
+    <li><a href="#conclusiones-del-proyecto">Conclusiones</a></li>
     <li><a href="#desarrollo-del-proyecto">Desarrollo del Proyecto</a></li>
     <li><a href="#desarrolladores">Desarrolladores</a></li>
     <li><a href="#stack-tecnológico">Stack Tecnológico</a></li>
@@ -355,9 +352,11 @@ Get to know our project, cloning the repository on your computer
 
 
 </div>
+<div align=center>
 
   | <div style="width:150px"><img src = 'src/profiles_photos/Matias.jpeg' height = 150> <div align="center" ><a href="https://github.com/https://github.com/PrismaPsy">Matías Ponce</a></div><div align="center" >Ingeniero de Datos</div><div align="center" >Analista de Datos</div></div>  | <div style="width:150px"><img src = 'src/profiles_photos/Ricardo.jpeg' height = 150><div align="center" ><a href="https://github.com/Rickhersd">Ricardo Sánchez</a></div><div align="center" >Analista Funcional</div></div> |
   | :---: | :---: |
+</div>
 
 <br />
 
