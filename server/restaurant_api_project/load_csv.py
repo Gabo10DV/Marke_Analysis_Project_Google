@@ -2,7 +2,13 @@ from .models import Place # Asegúrate de ajustar la ruta al modelo Place
 import csv
 
 # Ruta al archivo CSV
-csv_file_path = '/home/mkm/programin/Marke_Analysis_Project_Google/Data/Data_process/combined_metadata.csv'
+csv_file_path_1 = '/home/mkm/programin/Marke_Analysis_Project_Google/Data/Data_process/restaurants.csv'
+csv_file_path_2 = '/home/mkm/programin/Marke_Analysis_Project_Google/Data/Data_process/reviews.csv'
+csv_file_path_3 = '/home/mkm/programin/Marke_Analysis_Project_Google/Data/Data_process/users.csv'
+
+Data/Data_process/restaurants.csv
+Data/Data_process/reviews.csv
+Data/Data_process/users.csv
 
 BATCH_SIZE = 100
 
